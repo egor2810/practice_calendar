@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Meetings calendar</title>
+  <script type="text/javascript" src="local.js">
+  </script>
+
+</head>
+
+<body onmousedown="return false" onselectstart="return false">
+  <header>
+    <h1>Календарь встреч</h1>
+  </header>
+  <div class="content">
+    <div class="container">
+      <span id="month">Месяц</span>
+      <span id="year">Год</span>
+      <br>
+      <button type="button" name="Previus" onclick="previus()">Previus</button>
+      <button type="button" name=" Next " onclick="next()">Next</button>
+    </div>
+    <div class="dni">
+        <span>Пн</span><span>Вт</span><span>Ср</span><span>Чт</span><span>Пт</span><span>Сб</span><span>Вс</span>
+    </div>
+    <div class="main-block">
+
+    </div>
+    <script type="text/javascript" src="main.js">
+    </script>
+  </div>
+</body>
+
+</html>
